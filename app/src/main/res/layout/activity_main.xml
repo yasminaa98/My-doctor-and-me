@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/list_medecin"
+        android:layout_width="121dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="447dp"
+        android:src="@drawable/doc_list_icon" />
+
+    <ImageView
+        android:id="@+id/profil"
+        android:layout_width="121dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="275dp"
+        android:layout_marginBottom="304dp"
+        android:src="@drawable/profile_icon" />
+
+    <ImageView
+        android:id="@+id/chat"
+        android:layout_width="121dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="307dp"
+        android:src="@drawable/chat_icon" />
+
+    <ImageView
+        android:id="@+id/signout"
+        android:layout_width="121dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="310dp"
+        android:src="@drawable/signout" />
+
+    <ImageView
+        android:id="@+id/appointement"
+        android:layout_width="121dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="278dp"
+        android:layout_marginBottom="448dp"
+        android:src="@drawable/reserver_icon">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/reservation"
+        android:layout_width="121dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="448dp"
+        android:src="@drawable/appointments_list_icon">
+
+    </ImageView>
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".Med_session.Main_Med_Activity">
+
+    <ImageView
+        android:id="@+id/profilMed"
+        android:layout_width="121dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="234dp"
+        android:layout_marginBottom="327dp"
+        android:src="@drawable/profile_icon" />
+
+    <ImageView
+        android:id="@+id/chat"
+        android:layout_width="121dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="442dp"
+        android:src="@drawable/chat_icon" />
+
+    <ImageView
+        android:id="@+id/signout"
+        android:layout_width="121dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="319dp"
+        android:src="@drawable/signout" />
+
+    <ImageView
+        android:id="@+id/reservation"
+        android:layout_width="121dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="447dp"
+        android:src="@drawable/appointments_list_icon">
+
+    </ImageView>
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{ 
+  "doctors":[
+  {
+    "title": "dr.",
+    "gender": "male",
+    "firstName": "mohamed",
+    "lastName": "jouini",
+    "email": "mohamedjouini@gmail.com",
+    "mobile": "73854987",
+    "speciality": "generalist",
+    "region": "sousse"
+
+},
+{
+    "title": "dr.",
+    "gender": "female",
+    "firstName": "amina",
+    "lastName": "ben ali",
+    "email": "aminabenali@gmail.com",
+    "mobile": "73858757",
+    "speciality":"dermatologist",
+    "region": "sfax"
+
+},
+{
+    "title": "dr.",
+    "gender": "female",
+    "firstName": "fatma",
+    "lastName": "amara",
+    "email": "fatmaamara@gmail.com",
+    "mobile": "73654897",
+    "speciality":"ophthalmologist",
+     "region": "nabeul"
+   },
+
+{
+    "title": "dr.",
+    "gender": "male",
+    "firstName": "anis",
+    "lastName": "bensaad",
+    "email": "anisbensaad@gmail.com",
+    "mobile": "73584956",
+    "speciality":"cardiologist",
+    "region": "tunis"
+   }
+]
+}
+  

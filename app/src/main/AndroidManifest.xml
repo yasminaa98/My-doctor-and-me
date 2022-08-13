@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.medapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".Doctors_Profile.Docs_ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Reservation.Reservation_list_P"
+            android:exported="false" />
+        <activity
+            android:name=".Reservation.Reservations_list"
+            android:exported="false" />
+        <activity
+            android:name=".ReservationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Chat_Patient_Med.P_MessagesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Med_chat.M_MessagesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Chat_Patient_Med.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Med_chat.ChatMActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Med_session.Main_Med_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Med_session.Med_profile"
+            android:exported="false" />
+        <activity
+            android:name=".retrofit.RecyclerviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Session_Patient.PatientProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Med_session.Register_Med_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Session_Patient.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Med_session.Login_Med_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Session_Patient.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true"
+            android:label="My Doctor and Me"
+            android:theme="@style/Theme.MedApp.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

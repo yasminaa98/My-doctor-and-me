@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReservationActivity"
+    android:background="@drawable/appointment"
+        android:orientation="vertical">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:hint="select"
+            tools:ignore="HardcodedText,MissingConstraints">
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent"
+        android:layout_below="@+id/select">
+
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_complete_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:inputType="none"
+            tools:ignore="LabelFor,TouchTargetSizeCheck,SpeakableTextPresentCheck">
+
+        </AutoCompleteTextView>
+
+        <EditText
+            android:id="@+id/horraire"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/white"
+            android:hint="hh:mm:ss"
+            android:inputType="time"
+            android:maxLength="8"
+            android:minHeight="48dp"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/white"
+            android:hint="Select date"
+            android:inputType="date"
+            android:maxLength="8"
+            android:minHeight="48dp"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/nom"
+            android:layout_marginBottom="20dp"
+            android:minHeight="48dp" >
+        </Spinner>
+
+
+        <Button
+            android:id="@+id/reserver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reservation"
+            android:backgroundTint="#F26E6D"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+</LinearLayout>
